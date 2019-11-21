@@ -65,6 +65,12 @@ Changes to be committed:
 ```
 
 Viendo que no nos va a modificar ningún archivo que no hayamos creado o editado podemos hacer *commit*.
+Si intentamos hacer un comit git nos va a advertir que no puede hacer commits anonimos, por lo que debemos decirle quien esta haciendo el cambio, si este fuese un repositorio local, no importaria el correo que pongamos en el git, pero como lo tenemos que compartir, usaremos los correos de *Github*.
+
+```
+git config --global user.email "you@example.com"
+git config --global user.name "Gilberto Lara"
+```
 
 ```
 git commit -m "Agrego el saludo del Gil Obezo"
