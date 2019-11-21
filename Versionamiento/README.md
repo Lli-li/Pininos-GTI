@@ -33,7 +33,7 @@ Deberas instalar git para hacer la siguiente practica, todo sería tan bonito ed
 Para esto nos adueñamos del código haciendo un *clone* o un *branch* en este caso clonaremos el código tan funcional que tenemos para hacer un cambio grande a este magnifico proyecto.
 
 ```
-git clone https://github.com/Lli-li/Pininos-GTI/versionamiento
+git clone https://github.com/Lli-li/Pininos-GTI
 ```
 
 Este comando nos hara una copia del código que esta en *Github*, por lo que ahora podemos hacer uso del código del repositorio para construir algo nuevo.
