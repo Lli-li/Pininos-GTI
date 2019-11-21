@@ -10,5 +10,5 @@ Recuerden que Github es un servicio de repositorios, este repositorio es **públ
 
 ## Indice
 
-- [Git](./versionamiento)
-- [Node.js](./NodeJS)
+- [Git](https://github.com/Lli-li/Pininos-GTI/tree/master/Versionamiento)
+- [Node.js](https://github.com/Lli-li/Pininos-GTI/tree/master/NodeJS)
