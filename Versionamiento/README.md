@@ -72,10 +72,28 @@ git config --global user.email "you@example.com"
 git config --global user.name "Gilberto Lara"
 ```
 
+Ahora si ya podemos hacer el poderoso commit.
+
 ```
 git commit -m "Agrego el saludo del Gil Obezo"
 ```
 Antes de hacer cualquier *commit* se recomienda hacer un comentario que de pistas al Gestor de versiones que estabas haciendo un cambio con que prioridad, para que si hay varios trabajando en el mismo proyecto el puede evaluar su impacto y hacer los merges de las ramas en orden de prioridad.
 
-Ahora ya tienes tu código versionado en tu maquina, solo falta subirlo al repositorio, para eso hacer un **push**.
+Ahora ya tienes tu código versionado en tu maquina, solo falta subirlo al repositorio, para eso hace falta hacer un **push**.
+
+```
+git push [remote] [branch]
+```
+
+La sintaxis es primero el remoto y luego la rama, para ver los remotos usamos el comando **remote**. Con su opción *-v* podemos ver a donde apunta el remoto.
+
+```
+git remote -v
+```
+
+Para ver la rama usamos el comando *branch*.
+
+```
+git branch -v
+```
 
